@@ -12,7 +12,6 @@ Le projet est structuré en monorepo composé de deux parties principales :
 - **Framework** : symfony
 - **Base de données** : PostgreSQL (Données relationnelles) & MongoDB (Messages/Logs)
 - **ORM** : Doctrine
-- **Temps Réel** : WebSockets natifs
 - **Sécurité** : JWT & Argon2
 
 ### ⚛️ Frontend (`/frontend`)

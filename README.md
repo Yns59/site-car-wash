@@ -66,7 +66,7 @@ Une fois le stack lancé, les services sont accessibles aux adresses suivantes :
 
 - **Communicatio**n : Formulaire de contact ou messagerie simple pour échanger avec le car wash (questions, demandes spéciales, devis).
 
-## 🧠 Logique relationnelle
+## 🧠 Architecture 
 
 ```
 car-wash/
@@ -139,22 +139,6 @@ car-wash/
     ├── css/
     ├── js/
     └── images/
-templates/
-├─ base.html.twig
-├─ partials/
-│  ├─ _navbar.html.twig
-│  ├─ _footer.html.twig
-│  └─ _flash.html.twig
-├─ pages/
-│  ├─ home.html.twig                # page d’accueil car wash
-│  ├─ services.html.twig            # liste des prestations (lavage, options)
-│  ├─ booking.html.twig             # prise de RDV
-│  ├─ login.html.twig
-│  └─ register.html.twig
-└─ components/
-   ├─ _card_service.html.twig       # carte prestation (image + prix)
-   ├─ _form_input.html.twig
-   └─ _button.html.twig
 
 ```
 ## 👥 Auteurs
